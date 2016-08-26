@@ -1,0 +1,24 @@
+{
+	"name": "jstewmc/validate-file-size",
+	"description": "Validate a file's size",
+	"keywords": ["php", "jstewmc", "validate", "file", "size"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jack Clayton",
+			"email": "clayjs0@gmail.com"	
+		}
+	],
+	"require": {
+		"php": "^7.0"
+	},
+	"require-dev": {
+		"jstewmc/test-case": "^1.0",
+		"mikey179/vfsstream": "^1.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jstewmc\\ValidateFileSize\\": "src/"
+		}
+	}
+}
